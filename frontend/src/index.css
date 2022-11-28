@@ -8,11 +8,11 @@ body {
 }
 
 header {
-  background: linear-gradient(#f19e9886, #ffffff);
+  background: #622f22; 
   padding: 1rem;
 }
 header a {
-  color: #000000;
+  color: #ffffff;
   font-weight: bold;
   text-decoration: none;
 }
@@ -27,12 +27,13 @@ main {
 }
 
 .product {
-  border: 1px #000000 solid;
-  border-radius: 0 0 20px 20px;
+  border: 1px #622f22 solid;
+  border-radius: 20px;
   margin: 1rem;
 }
 
 .product img {
+  border-radius: 20px 20px 0 0;
   width: 100%;
   max-width: 300px;
 }
