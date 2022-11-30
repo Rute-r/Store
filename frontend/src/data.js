@@ -31,7 +31,7 @@ const data = {
       image: '/images/image3.jpg',
       price: 35,
       countInstock: 20,
-      rating: 4.1,
+      rating: 5,
       numReviews: 10,
       description: 'This book is about potions for beginners',
     },

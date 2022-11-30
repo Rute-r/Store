@@ -16,18 +16,30 @@ header a {
   font-weight: bold;
   text-decoration: none;
 }*/
-
+.color-nav {
+  background: #622f22;
+}
 .site-container {
   min-height: 100vh;
 }
 main {
   flex: 1;
 }
+.btn-primary {
+  background-color: #1d245c;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #1d245c, #79c1f1);
+}
 
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+.rating span {
+  color: goldenrod;
 }
 
 .product {
